@@ -89,7 +89,6 @@ function nextUser(event) {
   } else {
     console.log("this is cart section");
     if (totalUser.length - 1 > currentUser) {
-      // console.log("this is else section");
       if (userLunch !== "" && userDinner !== "") {
 
         // var lastUser = "user" + currentUser;
