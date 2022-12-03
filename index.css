@@ -1,0 +1,712 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Poppins&family=Roboto&family=Ubuntu:ital@0;1&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+  /* border: 1px solid #ccc; */
+  background-color: #f1f1f1;
+  width: 15%;
+  height: 700px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tablinks {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  /* background-color: #ddd; */
+}
+
+/* Create an active/current "tab button" class */
+/* .tab button.active {
+  background-color: #ccc;
+} */
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 10px 10px 0 25px;
+  /* border: 1px solid #ccc; */
+  width: 85%;
+  border-left: none;
+  height: 700px;
+}
+
+.head-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* welcome page */
+
+.wel-desc-container {
+  display: flex;
+}
+
+.wel-desc {
+  width: 65%;
+}
+
+.wel-banner>img {
+  height: 250px;
+}
+
+/* allergy page */
+
+.allergy-desc-container {
+  display: flex;
+}
+
+.allergy-desc {
+  width: 65%;
+}
+
+.allergy-image {
+  width: 35%;
+}
+
+.allergy-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 39px 10px 0px;
+}
+
+#warning {
+  color: red;
+}
+
+.allergy-content {}
+
+/* menu page */
+.menu-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-details {
+  width: 70%;
+}
+
+/* .menu-cart {
+  width: 30%;
+  padding: 0px 20px;
+} */
+
+.user-section {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px;
+  gap: 15px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 0px;
+  align-items: center;
+  gap: 12px;
+}
+
+#displayInput {
+  display: none;
+}
+
+#userList {
+  padding: 0px 25px 11px;
+  gap: 7px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: xxx-large;
+}
+
+h3 {
+  font-size: x-large;
+  padding-bottom: 10px;
+}
+
+p {
+  font-size: medium;
+}
+
+/* Get Started */
+
+.get-started {
+  background-color: #ff9800;
+  padding: 20px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  width: 100%;
+}
+
+.started-btn {
+  background-color: white;
+  border: none;
+  padding: 14px 88px;
+  border-radius: 15px;
+  margin-top: 5vh;
+  color: #ff5722;
+  font-size: x-large;
+}
+
+
+/* welcome page  */
+
+.welcome {
+  padding: 20px;
+}
+
+.welcome-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#wel-date {
+  padding-right: 25px;
+}
+
+#alle-date {
+  padding-right: 25px;
+}
+
+#menu-date {
+  padding-right: 25px;
+}
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.flex-container>* {
+  padding: 10px;
+  flex: 1 100%;
+}
+
+.main {
+  text-align: left;
+  /* background: cornflowerblue; */
+}
+
+.header {
+  background: coral;
+}
+
+.footer {
+  background: lightgreen;
+}
+
+.aside1 {
+  /* background: rgb(245, 245, 245); */
+}
+
+.aside2 {
+  background: violet;
+}
+
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  /* gap: 15vh; */
+
+}
+
+.nav-btn {
+  color: #fff;
+  background-color: #F93535;
+  border: none;
+  padding: 10px 0px;
+  border-radius: 5px;
+
+}
+
+.dot-icon {
+  font-size: 25px;
+  width: max-content;
+  line-height: 1;
+  padding-left: 7px
+}
+
+.wel-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.next-btn {
+  padding: 8px 50px;
+  background-color: #3AD954;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}
+
+.menu-desc-container {
+  padding: 10px 0;
+}
+
+.menu-cart-heading {
+  background-color: #F1F1F1;
+  padding: 5px 10px;
+  /* border-radius: 5px; */
+  margin-bottom: 7px;
+}
+
+.lunch-container{
+  border: 2px solid #F1F1F1;
+  border-radius: 10px;
+  width: 50%;
+}
+.dinner-container{
+  border: 2px solid #F1F1F1;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.menu-cart-product {
+
+  padding: 10px;
+}
+
+.cart-heading{
+  display: flex;
+  justify-content: center;
+  background: #bbb;
+  border-radius: 5px;
+  margin-top: 14px;
+}
+
+.menu-cart {
+  width: 30%;
+  padding: 0px 20px;
+  border: 2px solid #F1F1F1;
+  margin-left: 8px;
+  border-radius: 10px;
+}
+
+.cart-heading h2{
+  font-size: x-large;
+color: #FFFFFF;
+}
+
+.allergy-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#allergyName {
+  width: 79%;
+  height: 7vh;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 19px;
+  background-color: #D9D9D9;
+}
+
+.select-btn {
+  padding: 6px 10px;
+  background-color: #3AD954;
+  border: none;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0px;
+  justify-content: space-between;
+
+}
+
+.toggle-btn {
+  background-color: #E9E9ED;
+  padding: 10px 15px;
+  margin-right: 10px;
+  border-radius: 10px;
+  /* box-shadow: -5px -5px 10px #ffffff, 5px 5px 10px rgb(0 0 0 / 18%); */
+}
+
+.toggle-btn:hover {
+  background-color: #D0D0D7;
+}
+
+#lunch {
+  color: #F93535;
+}
+
+.confirm-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px 5px;
+  gap: 15px;
+}
+
+.display-date {
+  text-align: end;
+}
+
+.confirm-user-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 30px;
+}
+
+.confirm-lunch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 10px 30px;
+  ;
+}
+
+.confirm-dinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 10px 10px 30px;
+  ;
+}
+
+.confirm-cong {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 30px 10px;
+  color: #3AD954;
+}
+
+.menu-cart-details {
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+#google_translate_element {
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.selectLanguage {
+  width: 16vh;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.activeUser {
+  background-color: F93535;
+  padding: 5px 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+.notActiveUser {
+  background-color: #f1f1f1;
+  padding: 5px 8px;
+  color: black;
+  border-radius: 5px;
+}
+
+.activeTab {
+  background-color: #F93535;
+}
+
+.activeUser {
+  background-color: #bbbbbb;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-left: -20px;
+}
+
+.deactiveUser {
+  background-color: #F1F1F1;
+  color: #000;
+  margin-left: 0px;
+}
+
+/* allergy page */
+
+@media all and (min-width: 768px) {
+  .aside {
+    flex: 1 auto;
+    padding-top: 20px;
+  }
+
+  .main {
+    flex: 10 0px;
+  }
+
+  .aside1 {
+    order: 1;
+  }
+
+  .main {
+    order: 2;
+    padding-top: 20px;
+    padding-left: 30px;
+  }
+
+  .aside2 {
+    order: 3;
+  }
+
+  .footer {
+    order: 4;
+  }
+}
+
+
+/* Menu Slider  */
+
+.slider {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider .slide {
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: 0.3s left ease-in-out;
+}
+
+.slider .item {
+  margin-right: 10px;
+}
+
+.slider .item:last-child {
+  margin-right: 0;
+}
+
+.ctrl {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.ctrl-btn {
+  padding: 10px 10px;
+  min-width: 50px;
+  background: #fff;
+  border: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+
+  position: absolute;
+  top: 30%;
+  margin-top: -27.5px;
+}
+
+.ctrl-btn.pro-prev {
+  left: 0;
+}
+
+.ctrl-btn.pro-next {
+  right: 0;
+}
+
+
+
+/*  Mobile Design  */
+
+
+@media screen and (max-width: 500px) {
+
+  .tab {
+    display: none;
+  }
+
+  .tabcontent {
+    padding: 10px 10px 0 10px;
+    width: 100%;
+  }
+
+  #wel-date {
+    padding-right: 10px;
+  }
+
+  #alle-date {
+    padding-right: 10px;
+  }
+
+  #menu-date {
+    padding-right: 10px;
+  }
+
+  .ctrl-btn {
+    position: unset;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  .wel-banner>img {
+    height: 150px;
+  }
+
+  .allergy-desc-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #allergyName {
+    height: 5vh;
+  }
+
+  .allergy-desc {
+    width: 100%;
+    text-align: justify;
+  }
+
+  .allergy-checkbox {
+    flex-direction: column;
+    padding: 5px 10px 10px 0px;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .allergy-image {
+    display: none;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .menu-details {
+    width: 100%;
+  }
+
+  .menu-cart {
+    width: 100%;
+    padding: 0px 10px;
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+
+  .menu-task {
+    display: none;
+  }
+
+  .menu-banner {
+    display: none;
+  }
+
+  #allergyName {
+    width: 100%;
+  }
+
+  #displayInput {
+    padding-bottom: 20px;
+  }
+
+  .menu-cart-details {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 5px;
+  }
+
+  .display-date {
+    text-align: center;
+  }
+
+ 
+
+
+}
